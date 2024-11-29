@@ -70,16 +70,22 @@ padding-top: 100px;
 .father-accueil div img{
     width: 90%;
     border-top-left-radius: 60px;
+    animation: anim-image 3s linear infinite;
     border-bottom-right-radius: 60px;
     border:none;
     height: 500px;
+}
+@keyframes anim-image{
+    0%{
+        transform: translateY(50px);
+    }
 }
 .father-accueil div button{
     background-color: var(--color2);
     color:var(--color1);
     padding: 18px 19px;
     margin-top: 20px;
-    transition: 1s ease-in-out;
+    transition: 2s ease-in-out;
     cursor:pointer;
     animation:anim-button1 1.5s linear infinite;
     border-radius: 7px;
