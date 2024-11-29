@@ -198,9 +198,16 @@ h1{
 #menu h2{
     text-align: center;
     color:var(--color3);
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     padding-bottom: 30px;
+}
+#title-menu{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2.3rem;
 }
 .father-menu{
     display: flex;
