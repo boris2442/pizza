@@ -170,3 +170,12 @@ h1{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     line-height: 40px;
 }
+.second-button{
+    padding: 20px 18px;
+    background-color: var(--color2);
+    color:var(--color1);
+    font-size: 1.3rem;
+    border-radius: 7px;
+    animation:anim-button1 1.5s linear infinite;
+    
+}
