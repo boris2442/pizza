@@ -107,7 +107,7 @@ padding-top: 200px;
     margin-top: 20px;
     transition: 2s ease-in-out;
     cursor:pointer;
-    animation:anim-button1 1.5s linear infinite;
+    animation:anim-button1 2.5s linear infinite;
     border-radius: 7px;
     font-size: 1.4rem;
 }
@@ -187,7 +187,7 @@ h1{
     color:var(--color1);
     font-size: 1.3rem;
     border-radius: 7px;
-    animation:anim-button1 1.5s linear infinite;
+    animation:anim-button1 2.5s linear infinite;
     
 }
 
@@ -196,6 +196,7 @@ h1{
 
 #menu h2{
     text-align: center;
+    color:var(--color3);
     font-size: 1.9rem;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     padding-bottom: 30px;
@@ -251,13 +252,34 @@ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
 #service h3, #service h2{
     text-align: center;
+    font-weight: bold;
     text-transform: uppercase;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     line-height: 50px;
 }
 #service h2{
     font-size:1.3rem ;
+    color:var(--color3);
+
 }
 #service h3{
     font-size: 1.6rem;
+}
+.father-service{
+    display: flex;
+    padding: 30px;
+   gap: 20px;
+}
+.father-service div{
+ 
+    padding-right: 10px;
+}
+.father-service div h4{
+    font-size: 1.3rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 15px;
+}
+.father-service div p{
+    font-size: 1.2rem;
+    text-align: justify;
 }
