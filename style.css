@@ -8,6 +8,9 @@
     --color2:black;
     --color3:orange;
     --color4:red;
+    --color5:#D93025;
+    --color6:#4285F4;
+    --color7:#EA4335;
 }
 body, html{
     overflow-x: hidden;
@@ -183,7 +186,7 @@ h1{
 }
 .second-button{
     padding: 20px 18px;
-   
+   cursor: pointer;
     background-color: var(--color2);
     color:var(--color1);
     font-size: 1.3rem;
@@ -352,4 +355,57 @@ background-color: var(--color3);
 textarea{
     resize: none;
     height: 130px;
+}
+
+footer{
+    padding-top: 40px;
+    background-color: var(--color2);
+    width: 100%;
+}
+.parent-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.parent-footer div h3{
+    text-align: center;
+    color:var(--color1);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.parent-footer div:nth-child(2) p, .parent-footer div:nth-child(3) p{
+    line-height: 30px;
+    
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+
+    color:var(--color3);
+}
+.parent-footer div:nth-child(1) p a{
+    color:var(--color1);
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.parent-footer div:nth-child(1) p{
+    color:var(--color1);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+.mail{
+    font-size: 2rem;
+    padding-right: 15px;
+    color:var(--color5)
+}
+.phone{
+    font-size: 2rem;
+    padding-right: 15px;
+    color:var(--color6)
+}
+.localisation{
+    color:var(--color7);
+    padding-right: 15px;
+
+    font-size: 2rem;
 }
