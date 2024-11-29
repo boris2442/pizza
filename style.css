@@ -67,9 +67,7 @@ padding-top: 100px;
 }
 .father-accueil div:nth-child(1){
     text-align: center;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* margin: 0 auto; */
+ 
     line-height: 60px;
 }
 .father-accueil div img{
@@ -109,8 +107,8 @@ padding-top: 100px;
 #accueil h2{
     text-transform: capitalize;
     /* padding-bottom: 0px; */
-    padding-top: 70px;
-    padding-bottom: -20px;
+    padding-top: 100px;
+    /* padding-bottom: -20px; */
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1.9rem;
 }
@@ -120,6 +118,48 @@ h1{
     font-weight: 500;
   color:var(--color3);
  font-style: normal;
-    padding-top: 90px;
+    padding-top: 20px;
     line-height: 90px;
+}
+#about{
+    height: 100vh;
+    padding: 30px;
+    width: 100%;
+}
+ .father-about{
+    display: flex;
+    gap:80px;
+    justify-content: space-between;
+   
+}
+#about .father-about div h2{
+  
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-bottom: 30px;
+    padding-left: 80px;
+}
+.father-about div:nth-child(2){
+    text-align: justify;
+}
+#about .father-about div img{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+   margin-left: 40px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.first-para{
+    font-size: 1.3rem;
+    line-height: 30px;
+    font-weight: bold;
+  padding-right: 40px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.second-para{
+    margin: 0 auto;
+    padding-right: 50px;
+    text-align: justify;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 40px;
 }
