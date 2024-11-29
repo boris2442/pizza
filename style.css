@@ -58,6 +58,12 @@ header ul li a:hover{
     color:var(--color1);
     padding: 10px 15px;
 }
+header ul li a i{
+   color:var(--color1);
+   background-color: var(--color3);
+   border-radius: 50%;
+   font-size: 2.5rem;
+}
 img{
     transition: 1s ease-in-out;
 }
@@ -115,8 +121,8 @@ padding-top: 100px;
 }
 #accueil h2{
     text-transform: capitalize;
-  
-    padding-top: 100px;
+  text-align: center;
+ 
  
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1.9rem;
