@@ -11,6 +11,7 @@
     --color5:#D93025;
     --color6:#4285F4;
     --color7:#EA4335;
+    --color8:#1877F2;
 }
 body, html{
     overflow-x: hidden;
@@ -19,7 +20,7 @@ body, html{
 header{
     width: 100%;
     
-   
+   background-color: var(--color3);
     position: fixed;
     z-index: 1;
     display: grid;
@@ -168,6 +169,7 @@ h1{
    margin-left: 40px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
+    animation: anim-image 3s linear infinite;
 }
 .first-para{
     font-size: 1.3rem;
@@ -191,8 +193,15 @@ h1{
     color:var(--color1);
     font-size: 1.3rem;
     border-radius: 7px;
+    transition: 1s ease-in-out;
     animation:anim-button1 2.5s linear infinite;
     
+}
+
+.second-button:hover{
+    background-color: var(--color1);
+    box-shadow: 0px 0px 2px var(--color2);
+    color:var(--color2)
 }
 
 /*  section menu */
@@ -408,4 +417,17 @@ footer{
     padding-right: 15px;
 
     font-size: 2rem;
+}
+.parent-footer div i{
+    transition: 1s ease-in-out;
+    border-radius: 50%;
+    padding: 10px;
+}
+.parent-footer div i:hover{
+    background-color: var(--color1);
+}
+.facebook{
+color:var(--color8);
+font-size: 2rem;
+padding: 10px;
 }
