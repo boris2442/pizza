@@ -262,10 +262,24 @@ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 .father-menu div h5{
     font-size: 1.3rem;
 }
-.panier{
+.father-menu div i{
+    font-size: 2.2rem;
+    color:var(--color1);
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    background-color: var(--color3);
+    padding: 19px;
+ border-top-left-radius: 20px;
+ border-bottom-right-radius:20px ;
+    /* border-radius: 50%; */
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+/* .panier{
   
     font-size: 2rem;
-}
+} */
 
 /* partie service */
 
@@ -324,6 +338,7 @@ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 /* partie contact */
+
 #contact{
     padding: 60px;
 }
