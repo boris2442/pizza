@@ -101,5 +101,16 @@ overflow: auto;
         width: 90%;
         
     }
-    #about
+    #about .father-about div:nth-child(2){
+        text-align: center;
+        margin: 0 auto;
+    }
+    #menu .father-menu{
+        flex-direction: column;
+        display: flex;
+    }
+    .father-menu div{
+        width: 90%;
+        margin: 0 auto;
+    }
 }
