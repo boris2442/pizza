@@ -149,7 +149,7 @@ h1{
     line-height: 90px;
 }
 #about{
-    height: 100vh;
+    /* height: 100vh; */
     padding: 30px;
     width: 100%;
 }

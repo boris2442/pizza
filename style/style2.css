@@ -1,1 +1,23 @@
 /* partie destinee au responsive */
+@media  screen and (max-width:1250px) {
+    #menu .father-menu div i{
+        font-size: 2rem;
+    position: absolute;
+       /* bottom: 5px; */
+        
+
+    }
+    .second-button{
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+    }
+    #about{
+        padding-bottom: 100px;
+    }
+    .second-para{
+        height: 200px;
+        overflow: auto;
+    }
+    
+}
