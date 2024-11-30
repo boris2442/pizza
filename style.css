@@ -12,6 +12,10 @@
     --color6:#4285F4;
     --color7:#EA4335;
     --color8:#1877F2;
+    --color9:#1DA1F2;
+    --color10:#FFFFFF;
+    --color11:#FD1D1D;
+    --color12:green;
 }
 body, html{
     overflow-x: hidden;
@@ -368,8 +372,12 @@ textarea{
 
 footer{
     padding-top: 40px;
+    padding-bottom: 40px;
     background-color: var(--color2);
     width: 100%;
+}
+footer h3{
+    padding-bottom: 30px;
 }
 .parent-footer{
     display: flex;
@@ -419,6 +427,8 @@ footer{
     font-size: 2rem;
 }
 .parent-footer div i{
+    cursor: pointer;
+    font-size: 2rem;
     transition: 1s ease-in-out;
     border-radius: 50%;
     padding: 10px;
@@ -431,3 +441,32 @@ color:var(--color8);
 font-size: 2rem;
 padding: 10px;
 }
+.twitter{
+   font-size: 2rem;
+   color:var(--color9);
+}
+.tiktok{
+    color:var(--color10);
+}
+.inst{
+    color:var(--color11);
+}
+.whatsapp{
+    color:green;
+}
+.copy{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 40px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* partie responsive */
