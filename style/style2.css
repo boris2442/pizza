@@ -1,9 +1,10 @@
 /* partie destinee au responsive */
+
 @media  screen and (max-width:1250px) {
     #menu .father-menu div i{
         font-size: 2rem;
-    /* position: absolute; */
-       /* bottom: 5px; */
+   
+       
         
 
     }
