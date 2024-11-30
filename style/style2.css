@@ -141,3 +141,36 @@ overflow: auto;
     }
 }
 
+@media screen and (max-width:795px){
+    .none2{
+        display: none;
+    }
+    header ul li a{
+        font-family:"parisienne";
+        color:var(--color1);
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    h1{
+        font-size: 2.4rem;
+    }
+    .icone{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:600px){
+    input, textarea, #button3{
+        width: 90%;
+    }
+    #about .father-about div img{
+        width: 80%;
+        height: 300px;
+        border-radius: 0;
+       border-bottom-left-radius: 60px;
+       border-top-right-radius: 60px;
+   
+    }
+}
