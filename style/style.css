@@ -84,7 +84,7 @@ img:hover{
 }
 #accueil{
     padding-left: 30px;
-    height: 110vh;
+    /* height: 110vh; */
     width: 100%;
 padding-top: 200px;
 }
@@ -107,23 +107,23 @@ padding-top: 200px;
 }
 @keyframes anim-image{
     0%{
-        transform: translateY(50px);
+        transform: translateY(5px);
     }
 }
 .father-accueil div button{
     background-color: var(--color2);
     color:var(--color1);
     padding: 18px 19px;
-    margin-top: 20px;
+    margin-top: 30px;
     transition: 2s ease-in-out;
     cursor:pointer;
-    animation:anim-button1 2.5s linear infinite;
+     animation:anim-button1 2.5s linear infinite; 
     border-radius: 7px;
     font-size: 1.4rem;
 }
 @keyframes anim-button1{
     0%{
-        transform: translateY(50px);
+        transform: translateY(10px);
     }
 }
 .father-accueil div button:hover{
@@ -149,7 +149,7 @@ h1{
     line-height: 90px;
 }
 #about{
-    /* height: 100vh; */
+   
     padding: 30px;
     width: 100%;
 }

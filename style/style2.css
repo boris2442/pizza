@@ -53,13 +53,53 @@ width: 90%;
 height: 60%;
 }
 }
+@media  screen and ( max-width:995px) {
+#accueil button{
+    margin-top: 0px;
+}
+}
 
 @media  screen and ( max-width:950px) {
-/* .father-accueil{
-    display: flex;
-    flex-direction: column;
-} */
+
 .none1{
     display: none;
 }
+#accueil{
+    padding-top: 120px;
+}
+}
+@media screen and (max-width:795px){
+#about {
+padding-top:100px;
+display: flex;
+}
+#service p{
+height: 200px;
+overflow: auto;
+}
+#about img{
+    margin-top: 70px;
+}
+}
+
+@media screen and (max-width:795px){
+    .parent-footer{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        gap:30px;
+
+    }
+    .parent-footer div{
+        text-align: center;
+    }
+    .father-about{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    #about .father-about div img{
+        width: 90%;
+        
+    }
+    #about
 }
