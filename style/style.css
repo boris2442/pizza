@@ -195,7 +195,12 @@ h1{
 .second-button{
     padding: 20px 18px;
    cursor: pointer;
+  
+   margin: 0 auto;
     background-color: var(--color2);
+    align-items: center;
+    justify-content: center;
+    display: flex;
     color:var(--color1);
     font-size: 1.3rem;
     border-radius: 7px;
