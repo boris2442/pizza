@@ -37,14 +37,29 @@
 @media  screen and ( max-width:1030px) {
     .first-para{
         height: 100px;
+        padding-bottom: 60px;
         overflow: auto;
     }
 }
 
 @media  screen and ( max-width:920px) {
 
+
+#accueil{
+    padding-left: 30px;
+}
+#accueil img{
+width: 90%;
+height: 60%;
+}
+}
+
+@media  screen and ( max-width:950px) {
+/* .father-accueil{
+    display: flex;
+    flex-direction: column;
+} */
 .none1{
     display: none;
 }
-
 }
