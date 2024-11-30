@@ -278,8 +278,9 @@ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
  border-bottom-right-radius:20px ;
     /* border-radius: 50%; */
     position: absolute;
-    top: 9px;
+    /* top: 9px; */
     right: 9px;
+    bottom: 9px;
 }
 .father-menu div i:hover{
     color:var(--color3);
@@ -292,7 +293,7 @@ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 /* partie service */
 
 #service{
-    height: 80vh;
+    /* height: 80vh; */
     padding-top: 50px;
 }
 
