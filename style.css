@@ -343,7 +343,7 @@ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0 auto;
 }
 
-/* partie contact */
+/* partie contact formulaire */
 
 #contact{
     padding: 60px;
@@ -369,6 +369,10 @@ form{
     justify-content: center;
     flex-direction: column;
 
+}
+form a{
+    text-decoration: none;
+    color:var(--color1)
 }
 textarea, input, #button3{
     width: 440px;
