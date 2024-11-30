@@ -134,3 +134,10 @@ overflow: auto;
         align-items: center;
     }
 }
+@media screen and (max-width:795px){
+    .father-service{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
