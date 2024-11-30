@@ -120,11 +120,17 @@ overflow: auto;
         flex-direction: column;
     }
     .father-accueil button{
-        padding-bottom: 30px;
+       
         margin-bottom: 30px;
         text-align: center;
        
         
        
+    }
+    .father-accueil img{
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
     }
 }
