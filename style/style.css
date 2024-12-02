@@ -55,10 +55,27 @@ header ul li{
 }
 header ul li a{
     text-decoration: none;
+    position: relative;
     transition: 1s ease-in-out;
     color:var(--color2);
     font-weight: bold;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.none3::before{
+    content: "";
+    position: absolute;
+    background-color: var(--color1);
+    height: 2px;
+    width: 100%;
+}
+.none3::after{
+    content: "";
+    position: absolute;
+    background-color: var(--color1);
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
 }
 header ul li a:hover{
     border-radius: 30px;
