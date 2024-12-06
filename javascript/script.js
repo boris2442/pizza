@@ -17,6 +17,7 @@ new Typewriter(title, {
 })
 .typeString("Savourez et déguster l'art de la pizzeria ")
 .pauseFor(2000)
+// .deleteSpeed(500)
 .deleteAll()
 // .typeString("Le lieu de l'apprentissage idéal")
 .start();
