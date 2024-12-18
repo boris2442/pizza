@@ -66,7 +66,7 @@ header ul li a{
     transition: 1s ease-in-out;
     color:var(--color2);
     font-weight: bold;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ 
 }
 .none3::before{
     content: "";
@@ -160,7 +160,7 @@ padding-top: 200px;
   text-align: center;
  
  
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   
     font-size: 1.9rem;
 }
 h1{
@@ -185,7 +185,7 @@ h1{
 }
 #about .father-about div h2{
   color:var(--color3);
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
     padding-bottom: 30px;
     padding-left: 80px;
 }
@@ -197,7 +197,7 @@ h1{
     height: 400px;
     margin: 0 auto;
    margin-left: 40px;
-  /* margin-bottom: 0; */
+
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     
@@ -207,14 +207,14 @@ h1{
     line-height: 30px;
     font-weight: bold;
   padding-right: 40px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
 }
 .second-para{
     margin: 0 auto;
     padding-right: 50px;
     font-weight: 500;
     text-align: justify;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
     line-height: 40px;
 }
 .second-button{
@@ -240,7 +240,7 @@ h1{
     color:var(--color2)
 }
 
-/*  section menu */
+/* ############ section menu###########33 */
 
 #menu{
   
@@ -250,14 +250,14 @@ h1{
     text-align: center;
     color:var(--color3);
     font-size: 1.5rem;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
     padding-bottom: 30px;
 }
 #title-menu{
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 25px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
     font-size: 2.3rem;
 }
 .father-menu{
@@ -289,7 +289,7 @@ h1{
 .father-menu div h3, .father-menu div h4, .father-menu div h5{
 line-height: 40px;
 font-weight: bold;
-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
 }
 .father-menu div h3{
     font-size: 1.5rem;
@@ -324,7 +324,7 @@ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
 
 
-/* partie service */
+/*########### partie service ############3*/
 
 #service{
    
