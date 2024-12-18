@@ -3,7 +3,8 @@
     margin: 0;
     scroll-behavior: smooth;
     text-decoration: none;
-    border: none;
+    /* border: none; */
+  
     outline: none;
     box-sizing: border-box;
 }
@@ -22,8 +23,10 @@
     --color12:green;
 }
 body, html{
+    font-family:'Parkinsans', Arial, Helvetica, sans-serif;
     overflow-x: hidden;
     width: 100%;
+    
 }
 header{
     width: 100%;
