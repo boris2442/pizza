@@ -3,7 +3,7 @@
     margin: 0;
     scroll-behavior: smooth;
     text-decoration: none;
-    /* border: none; */
+   
   
     outline: none;
     box-sizing: border-box;
@@ -165,7 +165,7 @@ padding-top: 200px;
 }
 h1{
     font-size: 4rem;
-    font-family: "Parisienne", serif;
+
     font-weight: 500;
   color:var(--color3);
  font-style: normal;
@@ -384,7 +384,7 @@ font-weight: bold;
     margin: 0 auto;
 }
 
-/* ###########partie contact formulaire########### */
+/* ########### partie contact formulaire ########### */
 
 #contact{
     padding: 60px;
