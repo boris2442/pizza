@@ -35,3 +35,8 @@ const sr=ScrollReveal({
 
 sr.reveal(".accueil, .about, .father-about, .contact, .menu, .service, .copy, .father-service, .footer-text", {interval:200})
 
+
+
+const navigation=document.querySelector("header ul");
+const menu=document.querySelector(".menu");
+
