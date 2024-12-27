@@ -568,7 +568,7 @@ top: 35px;
     background-color: var(--color3);
     width: 300px;
     left: -100%;
-    /* transition: 01s ease-in-out; */
+    transition: 01s ease-in-out;
     padding-top: 20px;
     height: 400px;
   }  
@@ -592,7 +592,13 @@ top: 35px;
     background-color: var(--color3);
     width: 300px;
  padding-top: 20px;
- /* transition: 01s ease-in-out; */
+ transition: 01s ease-in-out;
     height: 400px;
     left: 0;
+}
+.active3{
+    position: absolute;
+    top: 15.2vh;
+       left: -100%;
+    transition: 01s ease-in-out;
 }

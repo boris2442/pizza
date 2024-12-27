@@ -38,8 +38,11 @@ sr.reveal(".accueil, .about, .father-about, .contact, .menu, .service, .copy, .f
 
 
 const navigation=document.querySelector("header ul");
-const menu=document.querySelector(".menu");
+const menu=document.querySelector(".menu2");
 menu.addEventListener("click", ()=>{
   navigation.classList.toggle("active")
 })
+ window.addEventListener("scroll", ()=>{
+  navigation.classList.add("active3")
+ })
 
