@@ -309,13 +309,13 @@ font-weight: bold;
     transition: 1.3s ease-in-out;
     background-color: var(--color3);
     padding: 19px;
- border-top-left-radius: 20px;
- border-bottom-right-radius:20px ;
+ border-top-left-radius: 8px;
+ border-bottom-right-radius:8px ;
     
     position: absolute;
     
-    right: 9px;
-    bottom: 9px;
+    right: 0px;
+    bottom: 0px;
 }
 .father-menu div i:hover{
     color:var(--color3);
@@ -568,6 +568,7 @@ top: 35px;
     background-color: var(--color3);
     width: 300px;
     left: -100%;
+    /* transition: 01s ease-in-out; */
     padding-top: 20px;
     height: 400px;
   }  
@@ -579,10 +580,11 @@ top: 35px;
     cursor: pointer;
     right: 20px;
     }
+   
 }
 
 .active{
-    position: absolute;
+ 
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -590,6 +592,7 @@ top: 35px;
     background-color: var(--color3);
     width: 300px;
  padding-top: 20px;
+ /* transition: 01s ease-in-out; */
     height: 400px;
     left: 0;
 }

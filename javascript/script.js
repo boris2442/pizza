@@ -39,4 +39,7 @@ sr.reveal(".accueil, .about, .father-about, .contact, .menu, .service, .copy, .f
 
 const navigation=document.querySelector("header ul");
 const menu=document.querySelector(".menu");
+menu.addEventListener("click", ()=>{
+  navigation.classList.toggle("active")
+})
 
