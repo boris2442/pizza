@@ -91,7 +91,7 @@ header ul li a:hover{
     font-family: "parisienne";
     background-color: var(--color2);
     color:var(--color1);
-    padding: 10px 15px;
+
 }
 header ul li a i{
    color:var(--color1);

@@ -21,3 +21,17 @@ new Typewriter(title, {
 .deleteAll()
 // .typeString("Le lieu de l'apprentissage idéal")
 .start();
+
+
+
+// partie du code destinee au scrollReveal
+
+const sr=ScrollReveal({
+  duration:1500,
+  origin:"top",
+  distance:"30px",
+  reset:true
+})
+
+sr.reveal(".accueil, .about, .father-about, .contact, .menu, .service, .copy, .father-service, .footer-text", {interval:200})
+
