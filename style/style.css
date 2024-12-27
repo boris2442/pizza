@@ -550,6 +550,7 @@ position: absolute;
 top: 35px;
 right: -100%;
 }
+
 .active2{
     position: absolute;
     font-size: 2.5rem;
@@ -557,9 +558,9 @@ color:var(--color10);
 top: 35px;
     right: 20px;
 }
-
-
 @media screen and (max-width:826px){
+   
+    
   header ul{
     position: absolute;
     display: flex;
@@ -580,6 +581,12 @@ top: 35px;
     cursor: pointer;
     right: 20px;
     }
+    .active3{
+        position: absolute;
+        top: 15.2vh;
+           left: -100%;
+        transition: 01s ease-in-out;
+    }
    
 }
 
@@ -595,10 +602,4 @@ top: 35px;
  transition: 01s ease-in-out;
     height: 400px;
     left: 0;
-}
-.active3{
-    position: absolute;
-    top: 15.2vh;
-       left: -100%;
-    transition: 01s ease-in-out;
 }
