@@ -37,7 +37,7 @@ menu.addEventListener("click", ()=>{
 
 
 
- const link = document.querySelectorAll("nav>ul>li>a");
+ const link = document.querySelectorAll("ul>li>a");
  const sections=document.querySelectorAll("section");
 
 const scrollActive=()=>{
