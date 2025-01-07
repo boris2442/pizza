@@ -1,15 +1,3 @@
-// const titre=document.querySelector("h1");
-// new Typewriter(titre,{
-//     loop:true
-    // delay:100,
-// })
-
-// .typeString("Savourez et deguster l'art de la pizzeria")
-// .pauseFor(2000)
-// .deleteSpeed(300)
-// .deleteAll()
-
-// .start();
 
 const title=document.querySelector("h1")
 new Typewriter(title, {
@@ -17,9 +5,9 @@ new Typewriter(title, {
 })
 .typeString("Savourez et déguster l'art de la pizzeria ")
 .pauseFor(2000)
-// .deleteSpeed(500)
+
 .deleteAll()
-// .typeString("Le lieu de l'apprentissage idéal")
+
 .start();
 
 
@@ -46,3 +34,31 @@ menu.addEventListener("click", ()=>{
   navigation.classList.add("active3")
  })
 
+
+
+
+ const link = document.querySelectorAll("nav>ul>li>a");
+ const sections=document.querySelectorAll("section");
+
+const scrollActive=()=>{
+    sections.forEach(section=>{
+   let top=section.offsetTop;
+   
+   let height=section.offsetHeight;
+   
+   let id=section.getAttribute("id");
+   
+   let scrolls=window.scrollY;
+   if(scrolls>=top-250 && scrolls<top + height){
+    link.forEach(links=>{
+        links.classList.remove("active-link")
+    })
+    let recuperationId=document.querySelector(` ul li a[href*=${id}]`)
+    recuperationId.classList.add("active-link")
+   }
+    })
+}
+
+
+window.addEventListener("scroll", scrollActive)
+ 

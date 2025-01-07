@@ -64,12 +64,12 @@ header ul li{
 header ul li a{
     text-decoration: none;
     position: relative;
-    transition: 1s ease-in-out;
+    transition: .4s ease-in-out;
     color:var(--color2);
     font-weight: bold;
  
 }
-.none3::before{
+/* .none3::before{
     content: "";
     position: absolute;
     background-color: var(--color1);
@@ -84,16 +84,16 @@ header ul li a{
     bottom: -2px;
     left: 0;
     width: 100%;
-}
-header ul li a:hover{
-    border-radius: 30px;
+} */
+ header ul li a:hover{
+    /* border-radius: 30px;
     border: 1px solid var(--color2);
     margin-bottom: 10px;
     font-family: "parisienne";
-    background-color: var(--color2);
+    background-color: var(--color2); */
     color:var(--color1);
 
-}
+} 
 header ul li a i{
    color:var(--color1);
    background-color: var(--color3);
@@ -581,13 +581,13 @@ top: 35px;
     cursor: pointer;
     right: 20px;
     }
+    
     .active3{
         position: absolute;
         top: 15.2vh;
            left: -100%;
         transition: 01s ease-in-out;
     }
-   
 }
 
 .active{
@@ -602,4 +602,9 @@ top: 35px;
  transition: 01s ease-in-out;
     height: 400px;
     left: 0;
+}
+
+
+.active-link{
+    border-bottom: 2px dashed var(--color1);
 }
