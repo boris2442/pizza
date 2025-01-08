@@ -606,5 +606,6 @@ top: 35px;
 
 
 .active-link{
-    border-bottom: 4px dashed var(--color1);
+    border: 4px dashed var(--color1);
+    padding: 7px;
 }
