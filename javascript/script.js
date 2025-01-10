@@ -32,7 +32,7 @@ menu.addEventListener("click", ()=>{
 })
  window.addEventListener("scroll", ()=>{
   navigation.classList.add("active3")
- })
+ });
 
 
 
@@ -57,8 +57,15 @@ const scrollActive=()=>{
     recuperationId.classList.add("active-link")
    }
     })
-}
+};
 
 
-window.addEventListener("scroll", scrollActive)
+window.addEventListener("scroll", scrollActive);
  
+// chargement de la page
+
+window.onload = function() {
+  document.querySelector('.loader').style.display = 'none';
+  document.querySelector('.loader').style.transition='5s ease-out'
+};
+
