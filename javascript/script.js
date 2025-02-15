@@ -62,10 +62,32 @@ const scrollActive=()=>{
 
 window.addEventListener("scroll", scrollActive);
  
-// chargement de la page
+
 
 window.onload = function() {
    document.querySelector('.loader').style.display = 'none';
    document.querySelector('.loader').style.transition='5s ease-out'
  };
 
+ const images=document.querySelectorAll('img');
+ let options={
+     root:null,
+     rootMargin:"-100px 0px 0px 0px",
+     threshold:0
+ };
+ 
+ 
+ function handleIntersection(entries){
+ 
+ entries.forEach(entry=>{
+     if(entry.isIntersecting){
+         entry.target.style.opacity=1
+     }
+ })
+ }
+ 
+ const observer=new IntersectionObserver(handleIntersection, options)
+ 
+ images.forEach(image=>{
+ observer.observe(image)
+ })
